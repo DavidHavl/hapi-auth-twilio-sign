@@ -1,6 +1,6 @@
 {
   "name": "hapi-auth-twilio-signature2",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Hapi authentication plugin for Twilio webhook request validation using signature.",
   "main": "lib/index.js",
   "keywords": [
