@@ -10,7 +10,7 @@
     "scheme"
   ],
   "engines": {
-    "node": "^6.x.x"
+    "node": ">=6.0.0"
   },
   "author": {
     "name": "David Havl",
@@ -24,16 +24,16 @@
   },
   "homepage": "https://github.com/DavidHavl/hapi-auth-twilio-signature",
   "dependencies": {
-    "boom": "^4.0.0",
-    "hoek": "^4.0.0"
+    "boom": "^5.0.0",
+    "hoek": "^5.0.0"
   },
   "peerDependencies": {
     "hapi": "^16.x.x"
   },
   "devDependencies": {
-    "code": "4.x.x",
+    "code": "5.x.x",
     "hapi": "16.x.x",
-    "lab": "13.x.x"
+    "lab": "15.x.x"
   },
   "scripts": {
     "test": "lab -a code -t 100 -L",
