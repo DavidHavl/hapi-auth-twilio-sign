@@ -18,3 +18,5 @@ server.register(HapiAuthTwilio, function (err) {
     server.route({ method: 'POST', path: '/twilio-webhooks', config: { auth: 'twilio' } });
 });
 ```
+
+Or you can use your own strategy. Have a look at the HapiAuthTwilio.strategy for inspiration.
