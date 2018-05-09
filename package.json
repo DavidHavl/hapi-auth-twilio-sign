@@ -1,5 +1,5 @@
 {
-  "name": "hapi-auth-twilio-signature2",
+  "name": "hapi-auth-twilio-sign",
   "version": "0.6.1",
   "description": "Hapi authentication plugin for Twilio webhook request validation using signature.",
   "main": "lib/index.js",
@@ -20,9 +20,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DavidHavl/hapi-auth-twilio-signature"
+    "url": "git://github.com/DavidHavl/hapi-auth-twilio-sign"
   },
-  "homepage": "https://github.com/DavidHavl/hapi-auth-twilio-signature",
+  "homepage": "https://github.com/DavidHavl/hapi-auth-twilio-sign",
   "dependencies": {
     "boom": "^5.0.0",
     "hoek": "^5.0.0"
